@@ -28,4 +28,9 @@ public class FacebookPage {
     @FindBy(xpath = "//*[text()='Hesabını bul ve giriş yap.']")
     public WebElement girisYapilamadiYaziElementi;
 
+    @FindBy(xpath = "//*[@*='_42ft _4jy0 _6lti _4jy6 _4jy2 selected _51sy']")
+    public WebElement createNewAccountButonu;
+
+    @FindBy(xpath = "//*[@*='websubmit']") public WebElement kaydolButonu;
+
 }

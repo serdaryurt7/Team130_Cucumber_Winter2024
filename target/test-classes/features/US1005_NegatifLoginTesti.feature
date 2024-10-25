@@ -1,4 +1,3 @@
-@wip
 Feature: US1005 gecersiz bilgilerle sisteme giris yapilamamali
 
   Scenario: TC11 Gecerli email, gecersiz password ile sisteme giris yapilamaz
