@@ -115,4 +115,10 @@ public class TestotomasyonStepdefinitions {
         Assert.assertTrue(testOtomasyonPage.logoutButonu.isDisplayed());
     }
 
+    @Then("sisteme giris yapamadigini test eder")
+    public void sisteme_giris_yapamadigini_test_eder() {
+
+        Assert.assertTrue(testOtomasyonPage.emailKutusu.isDisplayed());
+    }
+
 }

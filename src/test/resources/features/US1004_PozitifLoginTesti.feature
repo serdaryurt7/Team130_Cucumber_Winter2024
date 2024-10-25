@@ -1,6 +1,5 @@
 Feature: US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli
 
-  @wip
   Scenario: TC10 gecerli username ve password ile sisteme giris yapabilmeli
 
     Given kullanici "toUrl" anasayfaya gider
@@ -11,3 +10,4 @@ Feature: US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli
     And basarili giris yapilabildigini test eder
     And 3 saniye bekler
     And sayfayi kapatir
+
