@@ -19,6 +19,7 @@
       Then aradigi urunun bulunmadigini test eder
       And sayfayi kapatir
 
+      @wip
     Scenario:TC09 parametre ile arama yapilabilmeli
 
       Given kullanici Testotomasyon sayfasina gider

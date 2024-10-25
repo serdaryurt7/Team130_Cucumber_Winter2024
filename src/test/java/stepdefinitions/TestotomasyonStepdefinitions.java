@@ -78,3 +78,11 @@ public class TestotomasyonStepdefinitions {
         }
     }
 }
+
+
+
+
+
+// 49 no lu madde
+
+// 67 no lu madde açılacak
