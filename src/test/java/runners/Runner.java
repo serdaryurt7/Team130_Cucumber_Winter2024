@@ -10,7 +10,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "stepdefinitions",
         tags = "@wip",
-        dryRun = true // true oldugunda sadece eksik adim var mi diye kontrol eder
+        dryRun = false // true oldugunda sadece eksik adim var mi diye kontrol eder
 )
 public class Runner {
 

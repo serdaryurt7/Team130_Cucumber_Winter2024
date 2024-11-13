@@ -70,7 +70,7 @@ public class EditorStepdefinitions {
 
         Actions actions = new Actions(Driver.getDriver());
         ReusableMethods.bekle(1);
-        actions.sendKeys(firstName)
+        actions.sendKeys(firstname)
                 .sendKeys(Keys.TAB)
                 .sendKeys(lastname)
                 .sendKeys(Keys.TAB)
@@ -89,9 +89,9 @@ public class EditorStepdefinitions {
     }
 
     @When("kullanici {string} ile arama yapar")
-    public void kullanici_ile_arama_yapar(String string) {
+    public void kullanici_ile_arama_yapar(String firstname) {
 
-        editorPage.searchKutusu.sendKeys(firstName);
+        editorPage.searchKutusu.sendKeys(firstname);
     }
 
     @Then("listede ilk ismin {string} icerdigini test eder")
