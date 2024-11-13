@@ -65,4 +65,41 @@ public class EditorStepdefinitions {
         Assert.assertTrue(tablodakiIlkIsimSoyisim.contains(firstName));
     }
 
+    @Then("{string} {string} {string} {string} {string} {string} ve {string} girer")
+    public void ve_girer(String firstname, String lastname, String position, String office, String extention, String date, String salary) {
+
+        Actions actions = new Actions(Driver.getDriver());
+        ReusableMethods.bekle(1);
+        actions.sendKeys(firstName)
+                .sendKeys(Keys.TAB)
+                .sendKeys(lastname)
+                .sendKeys(Keys.TAB)
+                .sendKeys(position)
+                .sendKeys(Keys.TAB)
+                .sendKeys(office)
+                .sendKeys(Keys.TAB)
+                .sendKeys(extention)
+                .sendKeys(Keys.TAB)
+                .sendKeys(date)
+                .sendKeys(Keys.TAB)
+                .sendKeys(salary)
+                .perform();
+
+        ReusableMethods.bekle(1);
+    }
+
+    @When("kullanici {string} ile arama yapar")
+    public void kullanici_ile_arama_yapar(String string) {
+
+        editorPage.searchKutusu.sendKeys(firstName);
+    }
+
+    @Then("listede ilk ismin {string} icerdigini test eder")
+    public void listede_ilk_ismin_icerdigini_test_eder(String firstname) {
+
+        String actualIlkIsim = editorPage.ilkIsimElementi.getText();
+
+        Assert.assertTrue(actualIlkIsim.contains(firstname));
+
+    }
 }
