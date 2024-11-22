@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.13" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli" name="TC10 gecerli username ve password ile sisteme giris yapabilmeli" time="10.915">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then account butonuna basar.................................................passed
+And email olarak "toGecerliEmail" girer.....................................passed
+And password olarak "toGecerliPassword" girer...............................passed
+Then signIn butonuna basar..................................................passed
+And basarili giris yapilabildigini test eder................................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
