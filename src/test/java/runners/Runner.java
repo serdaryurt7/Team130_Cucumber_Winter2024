@@ -11,8 +11,8 @@ import org.junit.runner.RunWith;
                 "junit:target/xml-report/cucumber.xml"},
         features = "src/test/resources/features",
         glue = "stepdefinitions",
-        tags = "@smoke",
-        dryRun = false // true oldugunda sadece eksik adim var mi diye kontrol eder
+        tags = "@wip",
+        dryRun = true // true oldugunda sadece eksik adim var mi diye kontrol eder
 )
 public class Runner {
 

@@ -1,15 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="11.13" tests="1" skipped="0" failures="0" errors="0">
-<testcase classname="US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli" name="TC10 gecerli username ve password ile sisteme giris yapabilmeli" time="10.915">
+<testsuite name="Cucumber" time="0.264" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="US1015 Webuniversity sayfasinda yanlis bilgilerle giris yapilamamali" name="TC23 yanlis bilgilerle giris yapilamadigini test eder" time="0.013">
 <system-out><![CDATA[
-Given kullanici "toUrl" anasayfaya gider....................................passed
-Then account butonuna basar.................................................passed
-And email olarak "toGecerliEmail" girer.....................................passed
-And password olarak "toGecerliPassword" girer...............................passed
-Then signIn butonuna basar..................................................passed
-And basarili giris yapilabildigini test eder................................passed
-And 3 saniye bekler.........................................................passed
+Given kullanici "webUniUrl" anasayfaya gider................................passed
+Then Login Portal a kadar asagi iner........................................passed
+And Login Portal a tiklar...................................................passed
+Then acilan ikinci window'a gecer...........................................passed
+And username ve password kutularina fake degerler yazdirir..................passed
+And login butonuna basar....................................................passed
+Then Popup ta cikan yazinin "validation failed" oldugunu test eder..........passed
+And Ok diyerek Popup'i kapatir..............................................passed
+When Ilk sayfaya geri doner.................................................passed
+Then Ilk sayfaya donuldugunu test eder......................................passed
 And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1016 Kullanici yeni kayit olusturur" name="TC24 kullanici kayit olusturabilmeli" time="0.005">
+<failure/>
+<system-out><![CDATA[
+Given kullanici "automationUrl" anasayfaya gider............................passed
+And user sign up linkine tiklar.............................................undefined
+And user Create and account bölümüne email adresi girer.....................skipped
+And signUp butonuna basar...................................................skipped
+And user kisiel bilgilerini ve iletisim bilgilerini girer...................skipped
+And user Create Account butonuna basar......................................skipped
+Then hesap olustugunu test edin.............................................skipped
+And sayfayi kapatir.........................................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

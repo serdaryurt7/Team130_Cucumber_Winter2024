@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="63.588" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli" name="TC10 gecerli username ve password ile sisteme giris yapabilmeli" time="14.173">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then account butonuna basar.................................................passed
+And email olarak "toGecerliEmail" girer.....................................passed
+And password olarak "toGecerliPassword" girer...............................passed
+Then signIn butonuna basar..................................................passed
+And basarili giris yapilabildigini test eder................................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005 gecersiz bilgilerle sisteme giris yapilamamali" name="TC11 Gecerli email, gecersiz password ile sisteme giris yapilamaz" time="10.574">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then account butonuna basar.................................................passed
+And email olarak "toGecerliEmail" girer.....................................passed
+And password olarak "toGecersizPassword" girer..............................passed
+Then signIn butonuna basar..................................................passed
+And sisteme giris yapamadigini test eder....................................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005 gecersiz bilgilerle sisteme giris yapilamamali" name="TC12 Gecersiz email ve gecerli password ile sisteme giris yapilamaz" time="9.293">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then account butonuna basar.................................................passed
+And email olarak "toGecersizEmail" girer....................................passed
+And password olarak "toGecerliPassword" girer...............................passed
+Then signIn butonuna basar..................................................passed
+And sisteme giris yapamadigini test eder....................................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1005 gecersiz bilgilerle sisteme giris yapilamamali" name="TC13 Gecersiz email ve gecersiz password ile sisteme giris yapilamaz" time="9.784">
+<system-out><![CDATA[
+Given kullanici "toUrl" anasayfaya gider....................................passed
+Then account butonuna basar.................................................passed
+And email olarak "toGecersizEmail" girer....................................passed
+And password olarak "toGecersizPassword" girer..............................passed
+Then signIn butonuna basar..................................................passed
+And sisteme giris yapamadigini test eder....................................passed
+And 3 saniye bekler.........................................................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US1008 kullanici add ve remove butonlarini test eder" name="TC16 Kullanici add ve remove butonlarini kullanabilmeli" time="19.459">
+<system-out><![CDATA[
+Given kullanici "heroUrl" anasayfaya gider..................................passed
+When kullanici Add Element butonuna basar...................................passed
+And 2 saniye bekler.........................................................passed
+And Delete butonu'nun gorunur oldugunu test eder............................passed
+Then Delete tusuna basar....................................................passed
+And Delete butonunun gorunmedigini test eder................................passed
+And Add Remove Elements yazisinin gorunur oldugunu test eder................passed
+And sayfayi kapatir.........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

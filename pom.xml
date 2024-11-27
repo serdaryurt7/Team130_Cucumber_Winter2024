@@ -87,10 +87,11 @@
                             <inputDirectory>${project.build.directory}</inputDirectory>
                             <jsonFiles>
                                 <param>**/json-reports/*.json</param>
-                            </jsonFiles><classificationFiles>->
-                            <param>sample.properties</param>
-                            <param>other.properties</param>
-                        </classificationFiles>
+                            </jsonFiles>
+                            <classificationFiles>->
+                                <param>sample.properties</param>
+                                <param>other.properties</param>
+                            </classificationFiles>
                         </configuration>
                     </execution>
                 </executions>
@@ -125,7 +126,7 @@
                     <argLine>-Dfile.encoding=UTF-8</argLine>
                     <useFile>false</useFile>
                     <includes>
-                        <include>**/runners/*Runner*.java</include>
+                        <include>**/runners/*ParalelRun*.java</include>
                         <!-- runners package altinda
                              calismasini istedigimiz Runner'larin
                              isimlerindeki ortak bolumu yaziyoruz-->
@@ -133,6 +134,17 @@
                     <testFailureIgnore>true</testFailureIgnore>
                 </configuration>
             </plugin> <!-- Paralel calismayi organize ediyor -->
+
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
         </plugins>
     </build>
 
