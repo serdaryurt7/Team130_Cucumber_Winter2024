@@ -1,11 +1,13 @@
 pages\SauceDemoPage.class
 pages\TestotomasyonFormPage.class
+stepdefinitions\AutomationExerciseStepdefinitions.class
 stepdefinitions\WebuniversityStepdefinitions.class
 pages\ToAddRemovePage.class
 pages\EditorPage.class
 pages\WebuniversityPage.class
 stepdefinitions\facebookStepdefinitions.class
 runners\ParalelRun2.class
+pages\AutomationPage.class
 stepdefinitions\TestotomasyonStepdefinitions.class
 utilities\ReusableMethods.class
 pages\FacebookPage.class

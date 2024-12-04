@@ -1,6 +1,5 @@
 Feature: US1015 Webuniversity sayfasinda yanlis bilgilerle giris yapilamamali
 
-  @wip
   Scenario: TC23 yanlis bilgilerle giris yapilamadigini test eder
 
     Given kullanici "webUniUrl" anasayfaya gider

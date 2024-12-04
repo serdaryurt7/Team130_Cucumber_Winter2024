@@ -41,7 +41,7 @@ $(document).ready(function() {
 
 
 
-<title>Cucumber Reports (no 1) - Feature: US1009 Kullanici verilen listedeki tum urunleri aratir</title>
+<title>Cucumber Reports (no 1) - Tag: @rapor</title>
 
 </head>
 <body>
@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>cucumber-jvm-example</td>
         <td>1</td>
-      <td>22 Kas 2024, 16:28</td>
+      <td>03 Ara 2024, 12:02</td>
     </tr>
   </tbody>
 </table>
@@ -89,7 +89,7 @@ $(document).ready(function() {
 
 <div id="report-lead" class="container-fluid">
   <div class="col-md-10 col-md-offset-1">
-    <h2>Feature Report</h2>
+    <h2>Tag Report</h2>
   </div>
 </div>
 
@@ -108,7 +108,7 @@ $(document).ready(function() {
     <th colspan="2">Features</th>
   </tr>
   <tr>
-    <th>Feature</th>
+    <th>Tag</th>
     <th class="passed">Passed</th>
     <th class="failed">Failed</th>
     <th class="skipped">Skipped</th>
@@ -128,20 +128,20 @@ $(document).ready(function() {
 
         <tbody>
         <tr>
-          <td class="tagname">US1009 Kullanici verilen listedeki tum urunleri aratir</td>
-          <td      class="passed"    >27</td>
-          <td      class="failed"    >1</td>
-          <td     class="skipped"   >2</td>
+          <td class="tagname">@rapor</td>
+          <td      class="passed"    >48</td>
           <td >0</td>
           <td >0</td>
-          <td class="total">30</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">48</td>
 
-          <td  class="passed"    >5</td>
-          <td  class="failed"    >1</td>
+          <td  class="passed"    >6</td>
+          <td >0</td>
           <td class="total">6</td>
 
-          <td class="duration" data-value="40401347200">40.401</td>
-          <td class="fa&#305;led">Fa&#305;led</td>
+          <td class="duration" data-value="58993555300">58.993</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -167,40 +167,31 @@ $(document).ready(function() {
 <div class="container-fluid" id="report">
   <div class="row">
     <div class="col-md-10 col-md-offset-1">
-      <div class="feature">
+      <div class="elements">
 
-<div class="tags indention">
-</div>
-
-
-<div class="brief fa&#305;led">
-  <span class="keyword indention">Feature</span>
-  <span class="name">US1009 Kullanici verilen listedeki tum urunleri aratir</span>
-
-
-</div>
-
-        <div class="description indention"></div>
-
-        <div class="elements inner-level">
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_3114039886.html">US1004 Kullanici gecerli bilgilerle sisteme giris yapabilmeli</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149488983.html">@e2e</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_4088031619.html">@rapor</a>
 </div>
 
 
-  <span class="lead-duration duration">5.573</span>
+  <span class="lead-duration duration">8.570</span>
 
 
   <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">TC17 kullanici listedeki tum urunlerin var oldugunu test eder</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC10 gecerli username ve password ile sisteme giris yapabilmeli</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -236,7 +227,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">kullanici <span class="argument">&quot;toUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">2.691</span>
+  <span class="lead-duration duration">3.699</span>
 
 </div>
 
@@ -261,36 +252,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;phone&quot;</span> icin arama yapar</span>
+  <span class="name">account butonuna basar</span>
 
-  <span class="lead-duration duration">0.269</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">aradigi urunun bulundugunu test eder</span>
-
-  <span class="lead-duration duration">0.677</span>
+  <span class="lead-duration duration">1.100</span>
 
 </div>
 
@@ -315,9 +279,36 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">1</span> saniye bekler</span>
+  <span class="name">email olarak <span class="argument">&quot;toGecerliEmail&quot;</span> girer</span>
 
-  <span class="lead-duration duration">1.004</span>
+  <span class="lead-duration duration">0.094</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">password olarak <span class="argument">&quot;toGecerliPassword&quot;</span> girer</span>
+
+  <span class="lead-duration duration">0.051</span>
 
 </div>
 
@@ -342,9 +333,63 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">sayfayi kapatir</span>
+  <span class="name">signIn butonuna basar</span>
 
-  <span class="lead-duration duration">0.931</span>
+  <span class="lead-duration duration">0.398</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">basarili giris yapilabildigini test eder</span>
+
+  <span class="lead-duration duration">0.213</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">3</span> saniye bekler</span>
+
+  <span class="lead-duration duration">3.012</span>
 
 </div>
 
@@ -389,7 +434,7 @@ $(document).ready(function() {
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.613</span>
+  <span class="lead-duration duration">0.312</span>
 
           </div>
 
@@ -408,22 +453,27 @@ $(document).ready(function() {
 
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_1_1554065292.html">US1005 gecersiz bilgilerle sisteme giris yapilamamali</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149488983.html">@e2e</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_4088031619.html">@rapor</a>
 </div>
 
 
-  <span class="lead-duration duration">13.930</span>
+  <span class="lead-duration duration">10.440</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-4">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-4">
 
-<div class="brief fa&#305;led">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">TC17 kullanici listedeki tum urunlerin var oldugunu test eder</span>
+<div class="brief passed">
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC11 Gecerli email, gecersiz password ile sisteme giris yapilamaz</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -432,16 +482,16 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-4" class="collapse collapsable-details  in ">
+  <div id="element-4" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-5">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-5">
 
-<div class="brief fa&#305;led">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -451,7 +501,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-5" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-5" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -459,7 +509,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">kullanici <span class="argument">&quot;toUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">3.437</span>
+  <span class="lead-duration duration">1.162</span>
 
 </div>
 
@@ -484,9 +534,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;java&quot;</span> icin arama yapar</span>
+  <span class="name">account butonuna basar</span>
 
-  <span class="lead-duration duration">0.434</span>
+  <span class="lead-duration duration">2.210</span>
 
 </div>
 
@@ -509,11 +559,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And fa&#305;led">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">aradigi urunun bulundugunu test eder</span>
+  <span class="name">email olarak <span class="argument">&quot;toGecerliEmail&quot;</span> girer</span>
 
-  <span class="lead-duration duration">10.058</span>
+  <span class="lead-duration duration">0.087</span>
 
 </div>
 
@@ -521,23 +571,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-6">
-          <a>java.lang.AssertionError</a>
-      </div>
-      <div id="msg-6" class="collapse collapsable-details  in ">
-        <pre>java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at stepdefinitions.TestotomasyonStepdefinitions.aradigi_urunun_bulundugunu_test_eder(TestotomasyonStepdefinitions.java:47)
-	at &#10045;.aradigi urunun bulundugunu test eder(file:///C:/Users/DELL/IdeaProjects/Team130_Cucumber/src/test/resources/features/US1009_TestotomasyonuTopluArama.feature:8)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -553,11 +586,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And sk&#305;pped">
+<div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">1</span> saniye bekler</span>
+  <span class="name">password olarak <span class="argument">&quot;toGecersizPassword&quot;</span> girer</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.057</span>
 
 </div>
 
@@ -580,11 +613,65 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-Then sk&#305;pped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">sayfayi kapatir</span>
+  <span class="name">signIn butonuna basar</span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">3.885</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">sisteme giris yapamadigini test eder</span>
+
+  <span class="lead-duration duration">0.028</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">3</span> saniye bekler</span>
+
+  <span class="lead-duration duration">3.009</span>
 
 </div>
 
@@ -611,7 +698,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-7">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-6">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -623,13 +710,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-7" class="inner-level collapse collapsable-details ">
+    <div id="after-6" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.456</span>
+  <span class="lead-duration duration">0.379</span>
 
           </div>
 
@@ -638,21 +725,6 @@ $(document).ready(function() {
 
 
 
-  <div class="embeddings inner-level">
-  <div class="embedding indention">
-    <div data-toggle="collapse" data-target="#embedding-8" class="collapsable-control">
-      <a>screenshots</a>
-      <a href="embeddings/embedding_229871376.png" download target="_blank">
-        <span class="download-button glyphicon glyphicon-download-alt"></span>
-      </a>
-    </div>
-    <div id="embedding-8" class="collapse collapsable-details ">
-      <div class="embedding-content">
-        <img src="embeddings/embedding_229871376.png">
-      </div>
-    </div>
-  </div>
-  </div>
 
         </div>
     </div>
@@ -663,22 +735,27 @@ $(document).ready(function() {
 
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_1_1554065292.html">US1005 gecersiz bilgilerle sisteme giris yapilamamali</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149488983.html">@e2e</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_4088031619.html">@rapor</a>
 </div>
 
 
-  <span class="lead-duration duration">5.674</span>
+  <span class="lead-duration duration">6.674</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-9">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-7">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">TC17 kullanici listedeki tum urunlerin var oldugunu test eder</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC12 Gecersiz email ve gecerli password ile sisteme giris yapilamaz</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -687,14 +764,14 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-9" class="collapse collapsable-details ">
+  <div id="element-7" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-10">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -706,7 +783,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-10" class="inner-level collapse collapsable-details ">
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -714,7 +791,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">kullanici <span class="argument">&quot;toUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">2.992</span>
+  <span class="lead-duration duration">2.358</span>
 
 </div>
 
@@ -739,36 +816,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;dress&quot;</span> icin arama yapar</span>
+  <span class="name">account butonuna basar</span>
 
-  <span class="lead-duration duration">0.891</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">aradigi urunun bulundugunu test eder</span>
-
-  <span class="lead-duration duration">0.342</span>
+  <span class="lead-duration duration">0.791</span>
 
 </div>
 
@@ -793,9 +843,36 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">1</span> saniye bekler</span>
+  <span class="name">email olarak <span class="argument">&quot;toGecersizEmail&quot;</span> girer</span>
 
-  <span class="lead-duration duration">1.006</span>
+  <span class="lead-duration duration">0.091</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">password olarak <span class="argument">&quot;toGecerliPassword&quot;</span> girer</span>
+
+  <span class="lead-duration duration">0.052</span>
 
 </div>
 
@@ -820,9 +897,63 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">sayfayi kapatir</span>
+  <span class="name">signIn butonuna basar</span>
 
-  <span class="lead-duration duration">0.442</span>
+  <span class="lead-duration duration">0.324</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">sisteme giris yapamadigini test eder</span>
+
+  <span class="lead-duration duration">0.042</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">3</span> saniye bekler</span>
+
+  <span class="lead-duration duration">3.013</span>
 
 </div>
 
@@ -849,7 +980,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -861,13 +992,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-11" class="inner-level collapse collapsable-details ">
+    <div id="after-9" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.199</span>
+  <span class="lead-duration duration">0.374</span>
 
           </div>
 
@@ -886,22 +1017,27 @@ $(document).ready(function() {
 
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_1_1554065292.html">US1005 gecersiz bilgilerle sisteme giris yapilamamali</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149488983.html">@e2e</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_4088031619.html">@rapor</a>
 </div>
 
 
-  <span class="lead-duration duration">5.204</span>
+  <span class="lead-duration duration">6.834</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-12">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-10">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">TC17 kullanici listedeki tum urunlerin var oldugunu test eder</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC13 Gecersiz email ve gecersiz password ile sisteme giris yapilamaz</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -910,14 +1046,14 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-12" class="collapse collapsable-details ">
+  <div id="element-10" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-11">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -929,7 +1065,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-13" class="inner-level collapse collapsable-details ">
+  <div id="steps-11" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -937,7 +1073,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">kullanici <span class="argument">&quot;toUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">1.367</span>
+  <span class="lead-duration duration">2.553</span>
 
 </div>
 
@@ -962,36 +1098,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;baby&quot;</span> icin arama yapar</span>
+  <span class="name">account butonuna basar</span>
 
-  <span class="lead-duration duration">1.886</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">aradigi urunun bulundugunu test eder</span>
-
-  <span class="lead-duration duration">0.776</span>
+  <span class="lead-duration duration">0.759</span>
 
 </div>
 
@@ -1016,9 +1125,36 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">1</span> saniye bekler</span>
+  <span class="name">email olarak <span class="argument">&quot;toGecersizEmail&quot;</span> girer</span>
 
-  <span class="lead-duration duration">1.002</span>
+  <span class="lead-duration duration">0.090</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">password olarak <span class="argument">&quot;toGecersizPassword&quot;</span> girer</span>
+
+  <span class="lead-duration duration">0.054</span>
 
 </div>
 
@@ -1043,9 +1179,63 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">sayfayi kapatir</span>
+  <span class="name">signIn butonuna basar</span>
 
-  <span class="lead-duration duration">0.172</span>
+  <span class="lead-duration duration">0.320</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">sisteme giris yapamadigini test eder</span>
+
+  <span class="lead-duration duration">0.046</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">3</span> saniye bekler</span>
+
+  <span class="lead-duration duration">3.010</span>
 
 </div>
 
@@ -1072,7 +1262,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-14">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-12">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1084,13 +1274,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-14" class="inner-level collapse collapsable-details ">
+    <div id="after-12" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.155</span>
+  <span class="lead-duration duration">0.391</span>
 
           </div>
 
@@ -1109,22 +1299,27 @@ $(document).ready(function() {
 
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_2_838344313.html">US1007 Sauce demo alisveris sepeti testi</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
        <a href="report-tag_2149488983.html">@e2e</a>
+       <a href="report-tag_4088031619.html">@rapor</a>
 </div>
 
 
-  <span class="lead-duration duration">4.959</span>
+  <span class="lead-duration duration">9.739</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-15">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">TC17 kullanici listedeki tum urunlerin var oldugunu test eder</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC15 Kullanici sectigi urunu sepete ekleyebilmeli</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1133,14 +1328,14 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-15" class="collapse collapsable-details ">
+  <div id="element-13" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-16">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-14">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1152,42 +1347,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-16" class="inner-level collapse collapsable-details ">
+  <div id="steps-14" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
 <div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
-  <span class="name">kullanici <span class="argument">&quot;toUrl&quot;</span> anasayfaya gider</span>
+  <span class="name">kullanici <span class="argument">&quot;sauceUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">1.292</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;iphone&quot;</span> icin arama yapar</span>
-
-  <span class="lead-duration duration">2.336</span>
+  <span class="lead-duration duration">1.228</span>
 
 </div>
 
@@ -1212,36 +1380,9 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name">aradigi urunun bulundugunu test eder</span>
+  <span class="name"><span class="argument">2</span> saniye bekler</span>
 
-  <span class="lead-duration duration">0.035</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">1</span> saniye bekler</span>
-
-  <span class="lead-duration duration">1.001</span>
+  <span class="lead-duration duration">2.002</span>
 
 </div>
 
@@ -1266,9 +1407,252 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">sayfayi kapatir</span>
+  <span class="name">saucedemo username kutusuna <span class="argument">&quot;standard_user&quot;</span> yazar</span>
 
-  <span class="lead-duration duration">0.294</span>
+  <span class="lead-duration duration">0.099</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">saucedemo password kutusuna <span class="argument">&quot;secret_sauce&quot;</span> yazar</span>
+
+  <span class="lead-duration duration">0.060</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">2</span> saniye bekler</span>
+
+  <span class="lead-duration duration">2.012</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">saucedemo login tusuna basar</span>
+
+  <span class="lead-duration duration">0.090</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">ilk urunun ismini kaydeder ve bu urunun sayfasina gider</span>
+
+  <span class="lead-duration duration">0.095</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">saucedemo add to Cart butonuna basar</span>
+
+  <span class="lead-duration duration">0.054</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Then passed">
+  <span class="keyword indention">Then</span>
+  <span class="name">saucedemo alisveris sepetine tiklar</span>
+
+  <span class="lead-duration duration">0.048</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">2</span> saniye bekler</span>
+
+  <span class="lead-duration duration">2.014</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">sectigi urunun basarili olarak sepete eklendigini test eder</span>
+
+  <span class="lead-duration duration">0.018</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">2</span> saniye bekler</span>
+
+  <span class="lead-duration duration">2.013</span>
 
 </div>
 
@@ -1295,7 +1679,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-17">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-15">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1307,13 +1691,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-17" class="inner-level collapse collapsable-details ">
+    <div id="after-15" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.400</span>
+  <span class="lead-duration duration">0.250</span>
 
           </div>
 
@@ -1332,22 +1716,27 @@ $(document).ready(function() {
 
 
 <div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_3_2081639193.html">US1008 kullanici add ve remove butonlarini test eder</a>
+    </div>
 
 
 <div class="tags indention">
     <b>Tags:</b>
-       <a href="report-tag_2149488983.html">@e2e</a>
+       <a href="report-tag_4089311534.html">@smoke</a>
+       <a href="report-tag_4088031619.html">@rapor</a>
 </div>
 
 
-  <span class="lead-duration duration">5.057</span>
+  <span class="lead-duration duration">16.733</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
 
 <div class="brief passed">
-  <span class="keyword indention">Scenario Outline</span>
-  <span class="name">TC17 kullanici listedeki tum urunlerin var oldugunu test eder</span>
+  <span class="keyword indention">Scenario</span>
+  <span class="name">TC16 Kullanici add ve remove butonlarini kullanabilmeli</span>
 
 
      <i class="chevron fa fa-fw"></i>
@@ -1356,14 +1745,14 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details ">
+  <div id="element-16" class="collapse collapsable-details ">
 
 
 
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-19">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-17">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1375,42 +1764,15 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-19" class="inner-level collapse collapsable-details ">
+  <div id="steps-17" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
 <div class="brief step-name-Given passed">
   <span class="keyword indention">Given</span>
-  <span class="name">kullanici <span class="argument">&quot;toUrl&quot;</span> anasayfaya gider</span>
+  <span class="name">kullanici <span class="argument">&quot;heroUrl&quot;</span> anasayfaya gider</span>
 
-  <span class="lead-duration duration">2.417</span>
-
-</div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-      </div>
-      <div class="step">
-
-
-<div class="brief step-name-Then passed">
-  <span class="keyword indention">Then</span>
-  <span class="name"><span class="argument">&quot;samsung&quot;</span> icin arama yapar</span>
-
-  <span class="lead-duration duration">0.257</span>
+  <span class="lead-duration duration">2.542</span>
 
 </div>
 
@@ -1433,11 +1795,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-And passed">
-  <span class="keyword indention">And</span>
-  <span class="name">aradigi urunun bulundugunu test eder</span>
+<div class="brief step-name-When passed">
+  <span class="keyword indention">When</span>
+  <span class="name">kullanici Add Element butonuna basar</span>
 
-  <span class="lead-duration duration">1.132</span>
+  <span class="lead-duration duration">0.084</span>
 
 </div>
 
@@ -1462,9 +1824,36 @@ $(document).ready(function() {
 
 <div class="brief step-name-And passed">
   <span class="keyword indention">And</span>
-  <span class="name"><span class="argument">1</span> saniye bekler</span>
+  <span class="name"><span class="argument">2</span> saniye bekler</span>
 
-  <span class="lead-duration duration">1.014</span>
+  <span class="lead-duration duration">2.001</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Delete butonu'nun gorunur oldugunu test eder</span>
+
+  <span class="lead-duration duration">0.028</span>
 
 </div>
 
@@ -1489,9 +1878,90 @@ $(document).ready(function() {
 
 <div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
-  <span class="name">sayfayi kapatir</span>
+  <span class="name">Delete tusuna basar</span>
 
-  <span class="lead-duration duration">0.235</span>
+  <span class="lead-duration duration">0.039</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Delete butonunun gorunmedigini test eder</span>
+
+  <span class="lead-duration duration">10.017</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name">Add Remove Elements yazisinin gorunur oldugunu test eder</span>
+
+  <span class="lead-duration duration">0.018</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-And passed">
+  <span class="keyword indention">And</span>
+  <span class="name"><span class="argument">2</span> saniye bekler</span>
+
+  <span class="lead-duration duration">2.000</span>
 
 </div>
 
@@ -1518,7 +1988,7 @@ $(document).ready(function() {
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-20">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-18">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1530,13 +2000,13 @@ $(document).ready(function() {
 
     </div>
 
-    <div id="after-20" class="inner-level collapse collapsable-details ">
+    <div id="after-18" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">1.406</span>
+  <span class="lead-duration duration">0.262</span>
 
           </div>
 
@@ -1553,7 +2023,6 @@ $(document).ready(function() {
   </div>
 </div>
 
-        </div>
 
       </div>
     </div>

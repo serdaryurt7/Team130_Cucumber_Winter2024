@@ -1,31 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.264" tests="2" skipped="0" failures="1" errors="0">
-<testcase classname="US1015 Webuniversity sayfasinda yanlis bilgilerle giris yapilamamali" name="TC23 yanlis bilgilerle giris yapilamadigini test eder" time="0.013">
+<testsuite name="Cucumber" time="8.354" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="US1017 Kullanici listedeki sirketleri yazdirir" name="TC25 Kullanici istenen sirketlerin listede oldugunu test eder" time="8.234">
 <system-out><![CDATA[
-Given kullanici "webUniUrl" anasayfaya gider................................passed
-Then Login Portal a kadar asagi iner........................................passed
-And Login Portal a tiklar...................................................passed
-Then acilan ikinci window'a gecer...........................................passed
-And username ve password kutularina fake degerler yazdirir..................passed
-And login butonuna basar....................................................passed
-Then Popup ta cikan yazinin "validation failed" oldugunu test eder..........passed
-And Ok diyerek Popup'i kapatir..............................................passed
-When Ilk sayfaya geri doner.................................................passed
-Then Ilk sayfaya donuldugunu test eder......................................passed
-And sayfayi kapatir.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US1016 Kullanici yeni kayit olusturur" name="TC24 kullanici kayit olusturabilmeli" time="0.005">
-<failure/>
-<system-out><![CDATA[
-Given kullanici "automationUrl" anasayfaya gider............................passed
-And user sign up linkine tiklar.............................................undefined
-And user Create and account bölümüne email adresi girer.....................skipped
-And signUp butonuna basar...................................................skipped
-And user kisiel bilgilerini ve iletisim bilgilerini girer...................skipped
-And user Create Account butonuna basar......................................skipped
-Then hesap olustugunu test edin.............................................skipped
-And sayfayi kapatir.........................................................skipped
+Given kullanici "demoGuruUrl" anasayfaya gider..............................passed
+Then Company listesini consola yazdirir.....................................passed
+And listede 20'den fazla sirket oldugunu test eder..........................passed
+And "Jet Airways" %Change oraninin pozitif oldugunu test eder...............passed
+Then 3 saniye bekler........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
